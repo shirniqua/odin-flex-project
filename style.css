@@ -23,7 +23,7 @@ a {
     color:azure;
 }
 
-header {
+header, footer {
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
@@ -88,10 +88,14 @@ button {
     border: none;
 }
 
-footer {
-    text-align: center;
-}
+
+
 
 footer p {
     color: #e5e7eb;
+}footer {
+    text-align: center;
+    background-color: #1f2937;
+    margin: 0;
+    height: 70px;
 }
