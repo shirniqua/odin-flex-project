@@ -45,6 +45,7 @@ header, footer {
     flex-direction: column;
 }
 
+
 #section-one-heading {
     font-size: 48px;
     color: #F9FAF8;
@@ -52,12 +53,12 @@ header, footer {
 
 .section-one {
     color: azure;
-    display: flex;
     background-color: #1f2937;
     justify-content: space-evenly;
     gap: 30px;
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
     padding: 35px;
 }
 
@@ -88,14 +89,56 @@ button {
     border: none;
 }
 
+.section-two {
+    display: flex;
+    padding: 35px;
+    padding-bottom: 50px;
+   align-items: center;
+   flex-direction: column; 
+}
 
+.section-two-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.section-two-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.bundle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.section-two-box {
+    height: 125px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid #3883f6;
+    border-radius: 12px;
+}
+
+.section-two-subtext {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.section-three {
+    display: flex;
+    padding: 70px 35px;
+    background-color: #e5e7eb;
+}
 
 
 footer p {
     color: #e5e7eb;
-}footer {
-    text-align: center;
-    background-color: #1f2937;
-    margin: 0;
-    height: 70px;
 }
